@@ -1,0 +1,75 @@
+@media screen and (max-width:991px)
+{
+.main {
+	width: 100%;
+}
+.sidebar {
+	display: none;
+}
+.comment__inner {
+	display: none;
+}
+:nth-last-of-type(1).comment__inner {
+	display: block;
+}
+:nth-last-of-type(2).comment__inner {
+	display: block;
+}
+:nth-last-of-type(3).comment__inner {
+	display: block;
+}
+:nth-last-of-type(4).comment__inner {
+	display: block;
+}
+}
+@media screen and (max-width:767px)
+{
+.logo {
+	width: 100%; text-align: center; display: block;
+}
+.header-social {
+	width: 100%; text-align: center; display: block;
+}
+.header-search {
+	display: none;
+}
+.socail-bar {
+	width: 100%; text-align: center;
+}
+.menu {
+	display: none;
+}
+}
+@media screen and (max-width:450px)
+{
+.user-info {
+	margin-right: 42px;
+}
+.user__text {
+	margin-top: 10px; margin-right: 0px;
+}
+.user__date {
+	margin-left: 0px; display: block;
+}
+.user__img {
+	top: -47px;
+}
+.likes {
+	display: none;
+}
+.comment__inner_modify {
+	margin-left: 10px;
+}
+}
+@media screen and (min-width:768px)
+{
+.container {
+	margin: 0px auto; width: 747px;
+}
+}
+@media screen and (min-width:992px)
+{
+.container {
+	margin: 0px auto; width: 980px;
+}
+}
